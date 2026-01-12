@@ -16,7 +16,9 @@ A lightweight web app that generates a personalized fitness plan based on user i
 Example plans are included in the `samples/` folder.
 
 ### 1) Calisthenics (Weight Loss)
-- Input: <a href="samples/01_input_weight_loss_calisthenics.png"><img src="samples/01_input_weight_loss_calisthenics.png" width="350"></a>
+- Input:<br>
+<img src="samples/01_input_weight_loss_calisthenics.png" width="350" style="display:block; margin-top:6px; margin-left:0;">
+
 
 
 - Output PDF: [02_output_weight_loss_calisthenics.pdf](samples/02_output_weight_loss_calisthenics.pdf)
