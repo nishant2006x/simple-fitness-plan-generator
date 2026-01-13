@@ -1,3 +1,5 @@
+alert("JS LOADED");
+
 // must function to get form values
 function must(id) {
   const el = document.getElementById(id);
