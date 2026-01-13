@@ -7,6 +7,16 @@ function must(id) {
   return el.value;
 }
 
+// cool typewriter effect for title
+function typeWriter(el, text, speed) {
+  el.textContent = "";
+  for (let i = 0; i<text.length; i++) {
+    setTimeout(() => {
+      el.textContent += text.charAt(i);
+    }, i * speed);
+  }
+}
+
 // submit form code
 async function submitForm(event) {
   event.preventDefault();
@@ -38,4 +48,5 @@ async function submitForm(event) {
   }
 }
 
+typeWriter(document.getElementById("title"), "Simple Fitness Plan Generator ✅", 45);
 document.getElementById("myForm").addEventListener("submit", submitForm);
