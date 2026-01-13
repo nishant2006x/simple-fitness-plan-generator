@@ -8,14 +8,16 @@ function must(id) {
 }
 
 // cool typewriter effect for title
-function typeWriter(el, text, speed) {
+function typeWriter(el, text, speed = 45) {
+  if (!el) return;
   el.textContent = "";
-  for (let i = 0; i<text.length; i++) {
+  for (let i = 0; i < text.length; i++) {
     setTimeout(() => {
       el.textContent += text.charAt(i);
     }, i * speed);
   }
 }
+
 
 // submit form code
 async function submitForm(event) {
