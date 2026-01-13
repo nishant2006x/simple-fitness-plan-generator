@@ -50,5 +50,5 @@ async function submitForm(event) {
   }
 }
 
-typeWriter(document.getElementById("title"), "Simple Fitness Plan Generator ✅", 45);
+typeWriter(document.getElementById("title"), "Simple Fitness Plan Generator ✅", 435);
 document.getElementById("myForm").addEventListener("submit", submitForm);
